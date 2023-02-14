@@ -13,6 +13,20 @@
         android:theme="@style/Theme.Ecomm"
         tools:targetApi="31">
         <activity
+            android:name=".all_shirts"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".product_row"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".SignUp"
             android:exported="false">
             <meta-data
@@ -35,8 +49,6 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
-
-
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
